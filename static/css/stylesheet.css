@@ -2,3 +2,6 @@ label.print{
   font-style: italic;
   font-weight: bold;
 }
+body {
+  background-color: crimson;
+}
