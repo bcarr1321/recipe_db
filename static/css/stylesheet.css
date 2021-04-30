@@ -4,10 +4,23 @@ label.print{
 }
 body {
   background-color: crimson;
+  color: azure;
 }
 
 .logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+tbody {
+  color: azure;
+}
+
+thead {
+  color: azure;
+}
+
+div {
+  color: azure;
 }
