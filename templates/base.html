@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <img src="/static/pizzapro.png" alt="logo" class="logo" style="vertical-align: middle"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% block title %} {% endblock%}</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -29,7 +30,6 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             {% if current_user.is_authenticated %}

@@ -5,3 +5,9 @@ label.print{
 body {
   background-color: crimson;
 }
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
